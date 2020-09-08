@@ -64,7 +64,6 @@ $(document).ready(function () {
   $(window).scroll(function (event) {
     var pos_body = $('html,body').scrollTop();
     if (pos_body > 200) {
-      console.log('có');
       $('.menu').addClass('scrollmenu');
     } else {
       $('.menu').removeClass('scrollmenu');

@@ -2,3 +2,12 @@
 #sub-dropdown:hover #sub-dropdown-menu {
     display: none;
 }
+* {
+    overflow-x: hidden;
+}
+header .col-md-3 img {
+    width: 50%;
+}
+.icon-bootstrap {
+    display: none;
+}
