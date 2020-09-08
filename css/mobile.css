@@ -1,0 +1,4 @@
+/*độ rộng nhỏ hơn 768px*/
+#sub-dropdown:hover #sub-dropdown-menu {
+    display: none;
+}
