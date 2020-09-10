@@ -93,12 +93,14 @@ $(document).ready(function () {
       let src = $("#product1-detail-4").attr('src');
       $("#product1").attr('src',src);
     });
-  //   // Hover image
-  //   $("#detail1").hide();
-  //   $("#product1-hover").hover(function(){
-  //       $("#detail1").fadeIn();
-  //   }).mouseleave(function(){
-  //       $("#detail1").hide();
-  //   });
+    // Show eye and box
+    $(".detail").hide();
+    $(".product-block").hover(function(){
+        $(".detail").show();
+    });
+    // Handle Modal
+    $("#detail3").click(function(){
+        $("#product2").attr("src","img/product/product3.png")
+    });
   });
   

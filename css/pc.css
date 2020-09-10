@@ -369,14 +369,18 @@ li.nav-item {
 }
 
 /* Product */
-
+.massAction-block {
+  display: flex;
+  justify-content: space-between;
+}
 .massAction {
   display: flex;
 }
 
 .massPrice,
 .massColor,
-.massFilter {
+.massFilter,
+.massSort {
   border: 1px solid black;
   width: 6rem;
   height: 2rem;
@@ -507,6 +511,82 @@ li.nav-item {
   color: #8e8e8e;
   background-color: #eeeeee;
 }
+.content-modal {
+  display: flex;
+  justify-content: space-around;
+}
+.title-content {
+  font-size: 1.5rem;
+}
+.other {
+  color: grey;
+}
+.description {
+  color: grey;
+}
+.content-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.qty {
+  outline: none;
+  padding: 0.3rem 0.3rem 0.3rem 0.6rem;
+  width: 10rem;
+  border: 1px solid grey;
+  color: grey;
+}
+.content-2 span {
+  color: grey;
+}
+.add-to-cart {
+  background-color: black;
+  color: white;
+  outline: none;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  padding: 0.3rem;
+}
+.add-to-cart:hover {
+  transition: ease-out 0.6s;
+  background-color: #bfbfbf;
+}
+#product1-detail-1,
+#product1-detail-2,
+#product1-detail-3,
+#product1-detail-4 {
+  cursor: pointer;
+}
+.content-child-1,
+.content-child-2 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.room-1,
+.no-gas {
+  color: white;
+  background-color: #a8a88f;
+  font-weight: bold;
+}
+.room-2,
+.room-3,
+.have-gas {
+  color: #8e8e8e;
+  background-color: #eeeeee;
+}
+.room-1,
+.room-2,
+.room-3,
+.have-gas,
+.no-gas {
+  padding: 0.2rem;
+  text-align: center;
+  cursor: pointer;
+}
 /* Mix image */
 .product-block-inner {
   display: block;
@@ -523,11 +603,6 @@ li.nav-item {
   opacity: 1;
   transition: 0.6s;
   cursor: pointer;
-}
-@media (max-width: 768px) {
-  .detail {
-    display: none;
-  }
 }
 .position-button-slide {
   position: relative;
@@ -595,4 +670,7 @@ li.nav-item {
   color: black;
   font-size: 0.8rem;
   margin-top: 1rem;
+}
+.product-block-inner-1 {
+  margin-right: 4rem;
 }

@@ -11,3 +11,8 @@ header .col-md-3 img {
 .icon-bootstrap {
     display: none;
 }
+.product-block-inner-1{
+    width:163px;
+    height:163px;
+    margin:0;
+}
