@@ -437,8 +437,19 @@ li.nav-item {
   display: flex;
   flex-direction: column;
   position: absolute;
+  top: 7%;
+  left: 100%;
+  transition: 0.3s;
+  opacity: 0;
+}
+.product-block {
+  overflow: hidden;
+}
+.product-block:hover .detail {
   top: 10%;
   left: 80%;
+  opacity: 1;
+  transition: 0.5s;
 }
 .fa-eye {
   margin-bottom: 0.5rem;
