@@ -1,0 +1,25 @@
+$(document).ready(function(){
+    $(".filterPrice").hide();
+    $(".filterColor").hide();
+    $(".filterType").hide();
+    $(".massPrice").click(function(){
+        $(".filterPrice").toggle();
+        $(".filterColor").hide();
+        $(".filterType").hide();
+    });
+    $(".massColor").click(function(){
+        $(".filterPrice").hide();
+        $(".filterColor").toggle();
+        $(".filterType").hide();
+    });
+    $(".massFilter").click(function(){
+        $(".filterPrice").hide();
+        $(".filterColor").hide();
+        $(".filterType").toggle();
+    });
+    $("body").mousedown(function(){
+        $(".filterPrice").hide();
+        $(".filterColor").hide();
+        $(".filterType").hide();
+    });
+  });
