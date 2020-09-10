@@ -391,8 +391,13 @@ li.nav-item {
   margin-right: 0.7rem;
   cursor: pointer;
 }
-
-.massFilter {
+.sort{
+  display:flex;
+}
+.quantity{
+  font-size:0.9rem;
+}
+.massFilter,.massSort {
   width: 8rem;
 }
 .column {
@@ -400,13 +405,18 @@ li.nav-item {
 }
 .filterPrice,
 .filterColor,
-.filterType {
+.filterType,
+.filterMultiple {
   padding: 0.5rem;
   width: 12.7rem;
   position: absolute;
   background-color: white;
   z-index: 1;
   box-shadow: 0 0 5px grey;
+}
+.filterMultiple{
+  width:8rem;
+  right:4.5%;
 }
 .effect:hover {
   color: grey;
@@ -684,4 +694,9 @@ li.nav-item {
 }
 .product-block-inner-1 {
   margin-right: 4rem;
+}
+.select:hover{
+  background-color:#0084FF;
+  color:white;
+  cursor: pointer;
 }

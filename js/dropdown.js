@@ -2,6 +2,7 @@ $(document).ready(function(){
     $(".filterPrice").hide();
     $(".filterColor").hide();
     $(".filterType").hide();
+    $(".filterMultiple").hide();
     $(".massPrice").click(function(){
         $(".filterPrice").toggle();
         $(".filterColor").hide();
@@ -17,9 +18,16 @@ $(document).ready(function(){
         $(".filterColor").hide();
         $(".filterType").toggle();
     });
+    $(".massSort").click(function(){
+        $(".filterPrice").hide();
+        $(".filterColor").hide();
+        $(".filterType").hide();
+        $(".filterMultiple").toggle();
+    });
     $("body").mousedown(function(){
         $(".filterPrice").hide();
         $(".filterColor").hide();
         $(".filterType").hide();
+        $(".filterMultiple").hide();
     });
   });

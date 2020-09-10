@@ -16,3 +16,16 @@ header .col-md-3 img {
     height:163px;
     margin:0;
 }
+.massPrice,.massColor,.massFilter,.massSort{
+    width:4rem;
+    font-size:0.7rem;
+}
+.massPrice,.massColor{
+    margin-right:1rem;
+}
+.massFilter{
+    width:6rem;
+}
+.quantity{
+    font-size:0.7rem;
+}

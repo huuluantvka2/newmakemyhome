@@ -93,14 +93,17 @@ $(document).ready(function () {
       let src = $("#product1-detail-4").attr('src');
       $("#product1").attr('src',src);
     });
-    // Show eye and box
-    $(".detail").hide();
-    $(".product-block").hover(function(){
-        $(".detail").show();
+    $("#product6-detail-1").click(function(){
+      let src = $("#product6-detail-1").attr('src');
+      $("#product6").attr('src',src);
     });
-    // Handle Modal
-    $("#detail3").click(function(){
-        $("#product2").attr("src","img/product/product3.png")
+    $("#product6-detail-2").click(function(){
+      let src = $("#product6-detail-2").attr('src');
+      $("#product6").attr('src',src);
+    });
+    $("#product6-detail-3").click(function(){
+      let src = $("#product6-detail-3").attr('src');
+      $("#product6").attr('src',src);
     });
   });
   
