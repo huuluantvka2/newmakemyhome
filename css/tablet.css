@@ -2,6 +2,26 @@
 .content-concept h3 {
     color: red;
 }
+<<<<<<< HEAD
 .card {
     width: 100%;
+=======
+.name{
+    font-size:0.8rem;
+}
+.price{
+    font-size:0.8rem;
+}
+.detail{
+    display:none;
+}
+.share-moment h3 {
+    font-size: 12px;
+    position: absolute;
+    left: 49%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #676767;
+    font-weight: 600;
+>>>>>>> 49c415fe9091982cad0fba7f2be831f7f3dd5fc6
 }
