@@ -11,3 +11,10 @@ header .col-md-3 img {
 .icon-bootstrap {
     display: none;
 }
+.card {
+    width: 100%;
+}
+.card-big img { 
+    max-width: 100%;
+    height: auto;
+}
