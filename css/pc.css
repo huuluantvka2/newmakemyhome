@@ -610,7 +610,8 @@ li.nav-item {
   cursor: pointer;
 }
 /* Mix image */
-.product-block-inner {
+.product-block-inner,
+.product-block-concept {
   display: block;
   position: relative;
 }
@@ -700,4 +701,24 @@ li.nav-item {
   background-color: #0084ff;
   color: white;
   cursor: pointer;
+}
+/* Concept */
+.container-child-concept {
+  width: 100%;
+  display: flex;
+}
+.container-child-concept-inner {
+  width: 50%;
+}
+.container-child-concept-inner > div {
+  font-size: 0.8rem;
+  color: #6a696a;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.product-block-concept > div {
+  font-size: 0.9rem;
+  color: #6a696a;
 }
