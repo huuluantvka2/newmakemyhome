@@ -45,7 +45,7 @@ $(document).ready(function () {
       dots: false,
       responsive: {
         0: {
-          items: 1,
+          items: 2,
         },
         998: {
           items: 1,

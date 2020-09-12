@@ -11,14 +11,12 @@ header .col-md-3 img {
 .icon-bootstrap {
     display: none;
 }
-<<<<<<< HEAD
 .card {
     width: 100%;
 }
 .card-big img { 
     max-width: 100%;
-    height: auto;
-=======
+    height: auto;}
 .product-block-inner-1{
     width:163px;
     height:163px;
@@ -36,5 +34,4 @@ header .col-md-3 img {
 }
 .quantity{
     font-size:0.7rem;
->>>>>>> 49c415fe9091982cad0fba7f2be831f7f3dd5fc6
 }
