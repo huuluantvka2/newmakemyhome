@@ -23,3 +23,9 @@
   color: #676767;
   font-weight: 600;
 }
+.modal-dialog.modal-dialog-products {
+  max-width: 80% !important;
+}
+.only_pc {
+  display: none;
+}
