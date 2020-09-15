@@ -159,3 +159,21 @@ $(document).ready(function () {
     $('#product6').attr('src', src);
   });
 });
+$('.owl-carousel-type7').owlCarousel({
+  loop: true,
+  margin: 30,
+  nav: false,
+  autoplay: false,
+  dots: false,
+  responsive: {
+    500: {
+      items: 3,
+    },
+    768: {
+      items: 3,
+    },
+    1000: {
+      items: 3,
+    },
+  },
+});
