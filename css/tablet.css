@@ -1,22 +1,31 @@
 /*độ rộng từ 768px đến 1023px*/
 .content-concept h3 {
-    color: red;
+  color: red;
 }
-.name{
-    font-size:0.8rem;
+.card {
+  width: 100%;
 }
-.price{
-    font-size:0.8rem;
+.name {
+  font-size: 0.8rem;
 }
-.detail{
-    display:none;
+.price {
+  font-size: 0.8rem;
+}
+.detail {
+  display: none;
 }
 .share-moment h3 {
-    font-size: 12px;
-    position: absolute;
-    left: 49%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    color: #676767;
-    font-weight: 600;
+  font-size: 12px;
+  position: absolute;
+  left: 49%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #676767;
+  font-weight: 600;
+}
+.modal-dialog.modal-dialog-products {
+  max-width: 80% !important;
+}
+.only_pc {
+  display: none;
 }
