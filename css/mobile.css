@@ -2,8 +2,7 @@
 #sub-dropdown:hover #sub-dropdown-menu {
     display: none;
 }
-* {
-    overflow-x: hidden;
+
 }
 header .col-md-3 img {
     width: 50%;
@@ -11,12 +10,7 @@ header .col-md-3 img {
 .icon-bootstrap {
     display: none;
 }
-.card {
-    width: 100%;
-}
-.card-big img { 
-    max-width: 100%;
-    height: auto;}
+
 .product-block-inner-1{
     width:163px;
     height:163px;
@@ -34,4 +28,7 @@ header .col-md-3 img {
 }
 .quantity{
     font-size:0.7rem;
+}
+.tieude,.tieude-udtv,.tieude-khuyenmai,.tieude-tintuc {
+    overflow-y: hidden;
 }

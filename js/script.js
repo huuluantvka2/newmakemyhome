@@ -45,9 +45,9 @@ $(document).ready(function () {
       dots: false,
       responsive: {
         0: {
-          items: 2,
+          items: 1,
         },
-        998: {
+        768: {
           items: 1,
         },
         1000: {
@@ -55,6 +55,7 @@ $(document).ready(function () {
         },
       },
     });
+    
     $('.owl-carousel-type5').owlCarousel({
       loop: true,
       margin: 30,
@@ -160,4 +161,22 @@ $(document).ready(function () {
       $("#product6").attr('src',src);
     });
   });
-  
+  // ?????/
+  $('.owl-carousel-type7').owlCarousel({
+    loop: true,
+    margin: 30,
+    nav: false,
+    autoplay: false,
+    dots: false,
+    responsive: {
+      500: {
+        items: 3,
+      },
+      768: {
+        items: 3,
+      },
+      1000: {
+        items: 3,
+      },
+    },
+  });
