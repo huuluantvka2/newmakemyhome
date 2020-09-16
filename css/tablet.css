@@ -29,3 +29,6 @@
 .only_pc {
   display: none;
 }
+.products-group-item {
+  width: 30%;
+}
