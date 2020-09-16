@@ -947,7 +947,7 @@ a.btn-content-cection-box {
 
 /* ? trang con uu đãi nè ? */
 .card {
-  position: relative;
+  position: relative   ;
 }
 .card-img-after {
   opacity: 0;
