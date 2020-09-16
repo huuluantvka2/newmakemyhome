@@ -108,6 +108,24 @@ $(document).ready(function () {
       },
     },
   });
+  $('.owl-carousel-type7').owlCarousel({
+    loop: true,
+    margin: 20,
+    nav: false,
+    autoplay: false,
+    dots: false,
+    responsive: {
+      0: {
+        items: 3,
+      },
+      600: {
+        items: 3,
+      },
+      1000: {
+        items: 3,
+      },
+    },
+  });
   $('.customNextBtn').click(function () {
     owl.trigger('next.owl.carousel');
   });
@@ -157,24 +175,6 @@ $(document).ready(function () {
   $('#product6-detail-3').click(function () {
     let src = $('#product6-detail-3').attr('src');
     $('#product6').attr('src', src);
-  });
-  $('.owl-carousel-type7').owlCarousel({
-    loop: true,
-    margin: 30,
-    nav: false,
-    autoplay: false,
-    dots: false,
-    responsive: {
-      500: {
-        items: 3,
-      },
-      768: {
-        items: 3,
-      },
-      1000: {
-        items: 3,
-      },
-    },
   });
   let modalDialog = document.querySelectorAll('.type-radio-input-product');
   modalDialog.forEach((item) => {
