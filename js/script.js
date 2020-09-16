@@ -158,22 +158,35 @@ $(document).ready(function () {
     let src = $('#product6-detail-3').attr('src');
     $('#product6').attr('src', src);
   });
-});
-$('.owl-carousel-type7').owlCarousel({
-  loop: true,
-  margin: 30,
-  nav: false,
-  autoplay: false,
-  dots: false,
-  responsive: {
-    500: {
-      items: 3,
+  $('.owl-carousel-type7').owlCarousel({
+    loop: true,
+    margin: 30,
+    nav: false,
+    autoplay: false,
+    dots: false,
+    responsive: {
+      500: {
+        items: 3,
+      },
+      768: {
+        items: 3,
+      },
+      1000: {
+        items: 3,
+      },
     },
-    768: {
-      items: 3,
-    },
-    1000: {
-      items: 3,
-    },
-  },
+  });
+  let modalDialog = document.querySelectorAll('.type-radio-input-product');
+  modalDialog.forEach((item) => {
+    item.addEventListener('click', () => {
+      modalDialog.forEach((product) => {
+        if (product.classList.contains('active-radio-input-product')) {
+          product.classList.remove('active-radio-input-product');
+        }
+      });
+      if (!item.classList.contains('active-radio-input-product')) {
+        item.classList.add('active-radio-input-product');
+      }
+    });
+  });
 });

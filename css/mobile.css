@@ -43,3 +43,6 @@ header .col-md-3 img {
 .only_pc {
     display: none;
 }
+.products-group-item {
+    width: 45%;
+}
