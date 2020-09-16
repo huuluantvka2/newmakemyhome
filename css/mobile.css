@@ -46,3 +46,14 @@ header .col-md-3 img {
 .products-group-item {
     width: 45%;
 }
+/* ?????? của to ????? */
+h3.item-infor {
+    width: 100%;
+}
+h3.item-infor a {
+    text-align: center;
+    font-size: 14px;
+}
+.item-infor-content, .item-infor-content-1{
+    display: none;
+}

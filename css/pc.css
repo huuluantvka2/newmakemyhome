@@ -714,11 +714,13 @@ li.nav-item {
 }
 /* ????? */
 h3.tieude a {
-  overflow-y: hidden;
+ text-decoration: none;
+ color: #242327;
 }
 h3.tieude a:hover {
   color: black;
 }
+/* ????? */
 .modal-dialog.modal-dialog-products {
   max-width: 60% !important;
 }
@@ -974,4 +976,27 @@ a.btn-content-cection-box {
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 0 !important;
+}
+/* ? sửa newws? */
+.item-infor {
+  width: 80%;
+  margin: auto;
+}
+p.item-infor-content {
+  width: 100%;
+  text-align: center;
+}
+p.item-infor-content,p.item-infor-content-1 {
+  font-size: 14px;
+  color: #545454;
+}
+h3.item-infor a,h3.item-infor-1 a {
+  font-size: 19px;
+  display: inline-block;
+  font-weight: 300;
+  text-decoration: none;
+  color: black;
+}
+.item-infor a:hover,h3.item-infor-1 a:hover {
+  color: #A8A88F;
 }
