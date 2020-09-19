@@ -1032,3 +1032,24 @@ h3.item-infor-1 a:hover {
   margin: 5px 0;
   cursor: pointer;
 }
+.active-yellow {
+  position: relative;
+  z-index: 100;
+}
+.active-yellow::after {
+  content: '';
+  position: absolute;
+  width: 60%;
+  height: 7px;
+  background: #ffe100;
+  bottom: 2px;
+  left: 2px;
+  z-index: -1;
+}
+.item-article {
+  margin: 20px;
+}
+.item-article h2 {
+  font-size: 1.5rem;
+  color: #676767;
+}
