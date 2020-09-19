@@ -677,7 +677,8 @@ li.nav-item {
 .home:hover {
   color: black;
 }
-.line-1,.line-2 {
+.line-1,
+.line-2 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -714,8 +715,8 @@ li.nav-item {
 }
 /* ????? */
 h3.tieude a {
- text-decoration: none;
- color: #242327;
+  text-decoration: none;
+  color: #242327;
 }
 h3.tieude a:hover {
   color: black;
@@ -786,29 +787,30 @@ h3.tieude a:hover {
 }
 /* Dalat concept */
 .introduce-content > p {
-  color:#6F7280;
-  font-size:0.9rem;
+  color: #6f7280;
+  font-size: 0.9rem;
 }
-.nav-tabs,.nav-item{
-  border:none;
+.nav-tabs,
+.nav-item {
+  border: none;
 }
-.nav-link-dalat-concept{
-  background-color:#EDEDED;
-  color:black;
-  font-weight:600;
+.nav-link-dalat-concept {
+  background-color: #ededed;
+  color: black;
+  font-weight: 600;
 }
-.nav-link-dalat-concept:hover{
-  color:black;
+.nav-link-dalat-concept:hover {
+  color: black;
 }
-.select-dalat-concept{
-  width:40%;
-  font-size:0.8rem;
-  border:1px solid #EDEDED;
+.select-dalat-concept {
+  width: 40%;
+  font-size: 0.8rem;
+  border: 1px solid #ededed;
   outline: none;
-  color:#676767;
+  color: #676767;
 }
-.kitchen-product-list{
-  display:flex;
+.kitchen-product-list {
+  display: flex;
 }
 /* ?????/?????? */
 /* s */
@@ -823,31 +825,38 @@ h3.tieude a:hover {
   border-radius: 5px;
 }
 .btn-lienhe:hover {
-  color: red;
+  background-color: #A8A88F;
 }
 h3.tieude {
   text-align: center;
   padding: 50px 0;
 }
-h3.tieude a,h3.tieude-udtv a {
+h3.tieude a,
+h3.tieude-udtv a {
   text-decoration: none;
   color: #303030;
   transition: 0.4s;
 }
-h3.tieude-tintuc, h3.tieude-khuyenmai {
+h3.tieude-tintuc,
+h3.tieude-khuyenmai {
   text-align: center;
   width: 80%;
   margin: auto;
   line-height: 20px;
 }
-h3.tieude-tintuc a,h3.tieude-udtv a,  h3.tieude-khuyenmai a {
+h3.tieude-tintuc a,
+h3.tieude-udtv a,
+h3.tieude-khuyenmai a {
   text-decoration: none;
-  color: #303030; 
+  color: #303030;
   font-size: 18px;
   transition: 0.4s;
 }
-h3.tieude-tintuc a:hover,h3.tieude-udtv a:hover, h3.tieude a:hover , h3.tieude-khuyenmai a:hover {
-  color: #BBAB8F;
+h3.tieude-tintuc a:hover,
+h3.tieude-udtv a:hover,
+h3.tieude a:hover,
+h3.tieude-khuyenmai a:hover {
+  color: #bbab8f;
 }
 /* trang con tin tuc */
 .page-new {
@@ -857,7 +866,7 @@ h3.tieude-tintuc a:hover,h3.tieude-udtv a:hover, h3.tieude a:hover , h3.tieude-k
   margin-bottom: 20px;
 }
 .part-title {
-  border-bottom: 0.7px solid #F1F1F1 ;
+  border-bottom: 0.7px solid #f1f1f1;
   line-height: 35px;
   font-size: 20px;
   font-weight: 700;
@@ -877,7 +886,7 @@ ul.list-img-instagram li {
   width: 25%;
   padding: 3px;
 }
-.part ul{
+.part ul {
   list-style: none;
 }
 .part ul.list-link-content li a {
@@ -893,7 +902,7 @@ ul.list-img-instagram li {
   overflow: hidden;
 } */
 
-.card-new ul li a.btn-card-new{
+.card-new ul li a.btn-card-new {
   text-decoration: none;
   color: black;
   float: left;
@@ -907,16 +916,15 @@ ul.list-img-instagram li {
   background-color: #333333;
   color: white !important;
 }
- 
+
 h5.title-content-box {
-  margin-bottom:20px ;
+  margin-bottom: 20px;
 }
 h5.title-content-box a {
   text-decoration: none;
   color: #000000;
   font-size: 25px;
   font-weight: 100;
-
 }
 .poster-information {
   margin-bottom: 30px;
@@ -924,18 +932,35 @@ h5.title-content-box a {
 .poster-information p {
   font-size: 15px;
 }
-.poster-information p span {
-  border-right: 1px solid  #C7C8D4;
-  padding: 0 5px;
-  color: #C7C8D4;
+.poster-information p span:not(:last-child) {
+  border-right: 1px solid #c7c8d4;
+
 }
+.poster-information p span {
+  padding: 0 5px;
+  color: #c7c8d4;
+}
+
 .poster-information p span a {
   text-decoration: none;
-  color:  #C7C8D4 ;
+  color: #c7c8d4;
+  transition: 0.4s;
 }
-.content-post span{
+.entry-content a{
+  color: #757A7B;
+}
+.entry-content {
+  color: #545454;
+  padding-bottom: 30px;
+  border-bottom: 1px solid   #ADAD96 ;
+}
+.entry-content a:hover {
+  color: #ADAD96;
+}
+
+.content-post span {
   font-size: 14px;
-  color:#545454 ;
+  color: #545454;
 }
 a.btn-content-cection-box {
   display: inline-block;
@@ -947,13 +972,13 @@ a.btn-content-cection-box {
   transition: 0.4s;
 }
 .btn-content-cection-box:hover {
-  background-color: #BDA47D;
+  background-color: #bda47d;
   border: none;
 }
 
 /* ? trang con uu đãi nè ? */
 .card {
-  position: relative ;
+  position: relative;
 }
 .card-img-after {
   opacity: 0;
@@ -986,17 +1011,24 @@ p.item-infor-content {
   width: 100%;
   text-align: center;
 }
-p.item-infor-content,p.item-infor-content-1 {
+p.item-infor-content,
+p.item-infor-content-1 {
   font-size: 14px;
   color: #545454;
 }
-h3.item-infor a,h3.item-infor-1 a {
+h3.item-infor a,
+h3.item-infor-1 a {
   font-size: 19px;
   display: inline-block;
   font-weight: 300;
   text-decoration: none;
   color: black;
 }
-.item-infor a:hover,h3.item-infor-1 a:hover {
-  color: #A8A88F;
+.item-infor a:hover,
+h3.item-infor-1 a:hover {
+  color: #a8a88f;
+}
+.list-image-vertical img {
+  margin: 5px 0;
+  cursor: pointer;
 }

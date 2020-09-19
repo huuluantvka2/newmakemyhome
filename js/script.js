@@ -141,12 +141,14 @@ $(document).ready(function () {
     }
   });
   // Change price base on qty
-  var amount = document.getElementById('amount').value;
-  $('#qty').change(function () {
-    var qty = document.getElementById('qty').value;
-    var total = qty * amount;
-    document.getElementById('total').innerHTML = total + ' VND';
-  });
+  if (document.getElementById('amount')) {
+    var amount = document.getElementById('amount').value;
+    $('#qty').change(function () {
+      var qty = document.getElementById('qty').value;
+      var total = qty * amount;
+      document.getElementById('total').innerHTML = total + ' VND';
+    });
+  }
   // Change source image when click sub image
   $('#product1-detail-1').click(function () {
     let src = $('#product1-detail-1').attr('src');
@@ -186,6 +188,21 @@ $(document).ready(function () {
       });
       if (!item.classList.contains('active-radio-input-product')) {
         item.classList.add('active-radio-input-product');
+      }
+    });
+  });
+  let list_image_vertical = document.querySelectorAll(
+    '.list-image-vertical img'
+  );
+  list_image_vertical.forEach((item) => {
+    item.addEventListener('click', () => {
+      let getSRCBigImage = document
+        .querySelector('.product-detail-big-img img')
+        .getAttribute('src');
+      if (getSRCBigImage != item.getAttribute('src')) {
+        document
+          .querySelector('.product-detail-big-img img')
+          .setAttribute('src', item.getAttribute('src'));
       }
     });
   });
