@@ -975,6 +975,19 @@ a.btn-content-cection-box {
   background-color: #bda47d;
   border: none;
 }
+.share-entry-container span {
+  margin: 0 10px;
+
+}
+.btn-entry-container {
+  background-color: white;
+  border: 1px solid #333333;
+  transition: 0.4s;
+}
+.btn-entry-container:hover {
+  background-color: #333333;
+  color: white;
+}
 
 /* ? trang con uu đãi nè ? */
 .card {
