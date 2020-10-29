@@ -290,6 +290,7 @@ li.nav-item {
 }
 .nr-line {
   margin-top: 35px !important;
+  margin-bottom: 50px !important;
 }
 .line {
   border-width: 1px 0 0;
@@ -297,7 +298,7 @@ li.nav-item {
   width: 100%;
   display: inline-block;
   border-style: solid;
-  color: black;
+  color: #EEEEEE;
 }
 .title {
   width: 100%;
