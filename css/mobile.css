@@ -57,3 +57,6 @@ h3.item-infor a {
 .item-infor-content, .item-infor-content-1{
     display: none;
 }
+.contact-map iframe {
+    width: 100%;
+}
