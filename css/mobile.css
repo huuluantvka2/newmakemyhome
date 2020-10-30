@@ -43,3 +43,33 @@ header .col-md-3 img {
 .only_pc {
     display: none;
 }
+.products-group-item {
+    width: 45%;
+}
+/* ?????? của to ????? */
+h3.item-infor {
+    width: 100%;
+}
+h3.item-infor a {
+    text-align: center;
+    font-size: 14px;
+}
+.item-infor-content, .item-infor-content-1{
+    display: none;
+}
+.contact-map iframe {
+    width: 100%;
+}
+.section-box {
+    padding: 0 15px;
+}
+.main-content {
+    height: 171px;
+}
+.main-content  h2.content {
+    font-size: 25px;
+    padding: 40px 0px;
+}
+.main-content .background {
+    height: 171px;
+}

@@ -29,3 +29,9 @@
 .only_pc {
   display: none;
 }
+.products-group-item {
+  width: 30%;
+}
+.contact-map iframe {
+  width: 100%;
+}

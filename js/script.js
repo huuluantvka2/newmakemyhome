@@ -45,7 +45,7 @@ $(document).ready(function () {
     dots: false,
     responsive: {
       0: {
-        items: 2,
+        items: 1,
       },
       998: {
         items: 1,
@@ -108,6 +108,24 @@ $(document).ready(function () {
       },
     },
   });
+  $('.owl-carousel-type7').owlCarousel({
+    loop: true,
+    margin: 20,
+    nav: false,
+    autoplay: false,
+    dots: false,
+    responsive: {
+      0: {
+        items: 3,
+      },
+      600: {
+        items: 3,
+      },
+      1000: {
+        items: 3,
+      },
+    },
+  });
   $('.customNextBtn').click(function () {
     owl.trigger('next.owl.carousel');
   });
@@ -123,12 +141,14 @@ $(document).ready(function () {
     }
   });
   // Change price base on qty
-  var amount = document.getElementById('amount').value;
-  $('#qty').change(function () {
-    var qty = document.getElementById('qty').value;
-    var total = qty * amount;
-    document.getElementById('total').innerHTML = total + ' VND';
-  });
+  if (document.getElementById('amount')) {
+    var amount = document.getElementById('amount').value;
+    $('#qty').change(function () {
+      var qty = document.getElementById('qty').value;
+      var total = qty * amount;
+      document.getElementById('total').innerHTML = total + ' VND';
+    });
+  }
   // Change source image when click sub image
   $('#product1-detail-1').click(function () {
     let src = $('#product1-detail-1').attr('src');
@@ -157,6 +177,34 @@ $(document).ready(function () {
   $('#product6-detail-3').click(function () {
     let src = $('#product6-detail-3').attr('src');
     $('#product6').attr('src', src);
+  });
+  let modalDialog = document.querySelectorAll('.type-radio-input-product');
+  modalDialog.forEach((item) => {
+    item.addEventListener('click', () => {
+      modalDialog.forEach((product) => {
+        if (product.classList.contains('active-radio-input-product')) {
+          product.classList.remove('active-radio-input-product');
+        }
+      });
+      if (!item.classList.contains('active-radio-input-product')) {
+        item.classList.add('active-radio-input-product');
+      }
+    });
+  });
+  let list_image_vertical = document.querySelectorAll(
+    '.list-image-vertical img'
+  );
+  list_image_vertical.forEach((item) => {
+    item.addEventListener('click', () => {
+      let getSRCBigImage = document
+        .querySelector('.product-detail-big-img img')
+        .getAttribute('src');
+      if (getSRCBigImage != item.getAttribute('src')) {
+        document
+          .querySelector('.product-detail-big-img img')
+          .setAttribute('src', item.getAttribute('src'));
+      }
+    });
   });
 });
 $('.owl-carousel-type7').owlCarousel({
