@@ -177,3 +177,6 @@ $('.owl-carousel-type7').owlCarousel({
     },
   },
 });
+$("#class2").click(function(){
+  $("#class1").addClass()
+});
