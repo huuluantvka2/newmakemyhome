@@ -703,9 +703,10 @@ li.nav-item {
   width: 100%;
   display: flex;
 }
-.container-child-concept-inner {
+.container-child-concept-inner,.container-child-concept-1-inner {
   width: 50%;
 }
+
 .container-child-concept-inner > div {
   font-size: 0.8rem;
   color: #6a696a;

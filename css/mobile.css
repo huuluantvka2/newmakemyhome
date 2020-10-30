@@ -73,3 +73,13 @@ h3.item-infor a {
 .main-content .background {
     height: 171px;
 }
+/* Concept */
+.container-child-concept{
+    display:block;
+}
+.container-child-concept-inner,.container-child-concept-1-inner {
+    width: 100%;
+}
+.container-child-concept-1-inner{
+    margin-top:1rem;
+}
