@@ -27,7 +27,7 @@
   max-width: 80% !important;
 }
 .only_pc {
-  display: none;
+  display: none !important;
 }
 .products-group-item {
   width: 30%;
