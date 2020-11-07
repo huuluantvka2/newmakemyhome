@@ -33,12 +33,23 @@
 #sub-dropdown:hover #sub-dropdown-menu {
   display: block;
 }
-.icon-bootstrap a {
+.icon-bootstrap-in-menu{
+  float: right;
+}
+.icon-bootstrap a,.icon-bootstrap-in-menu a{
   padding: 0 10px;
   display: inline-block;
+  font-size: 1.2.rem;
 }
-.icon-bootstrap a svg {
+.icon-bootstrap a svg,.icon-bootstrap-in-menu a svg{
   color: black;
+}
+.icon-bootstrap input,.icon-bootstrap-in-menu input{
+  display: inline-block;
+  width: auto;
+}
+.icon-bootstrap-in-menu{
+  margin-left:auto;
 }
 .navbar-nav-custom li a {
   text-transform: uppercase;
@@ -615,14 +626,14 @@
   display: block;
   position: relative;
 }
-.imgMix {
+.imgMix,.sub-img-search {
   position: absolute;
   top: 0;
   left: 0;
   opacity: 0;
 }
 
-.imgMix:hover {
+.imgMix:hover,.sub-img-search:hover {
   opacity: 1;
   transition: 0.6s;
   cursor: pointer;
@@ -756,7 +767,7 @@ h3.tieude a:hover {
   font-size: 20px;
   color: grey;
 }
-.sale-box {
+.sale-box,.sale-box-search {
   background-color: #ffe600;
   padding: 10px 4px;
   display: inline-block;
@@ -1084,4 +1095,19 @@ h3.item-infor-1 a:hover {
 .nav-custom{
   padding-right:0;
   text-align: right;
+}
+.search-products{
+  width: 100%;
+  overflow: hidden;
+}
+.search-products img{
+  width: 100%;
+}
+.img-search{
+  width: 100%;
+  position: relative;
+}
+.sale-box-search{
+  right: 15px;
+  top: 0;
 }
