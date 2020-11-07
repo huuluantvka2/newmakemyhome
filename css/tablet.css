@@ -27,11 +27,18 @@
   max-width: 80% !important;
 }
 .only_pc {
-  display: none;
+  display: none !important;
 }
 .products-group-item {
   width: 30%;
 }
 .contact-map iframe {
   width: 100%;
+}
+/* Concept */
+.container-child-concept-inner{
+  width:53%;
+}
+.container-child-concept-1-inner{
+  width:47%;
 }

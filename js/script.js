@@ -207,3 +207,24 @@ $(document).ready(function () {
     });
   });
 });
+$('.owl-carousel-type7').owlCarousel({
+  loop: true,
+  margin: 30,
+  nav: false,
+  autoplay: false,
+  dots: false,
+  responsive: {
+    500: {
+      items: 3,
+    },
+    768: {
+      items: 3,
+    },
+    1000: {
+      items: 3,
+    },
+  },
+});
+$("#class2").click(function(){
+  $("#class1").addClass()
+});
